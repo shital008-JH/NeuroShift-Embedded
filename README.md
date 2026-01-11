@@ -20,7 +20,7 @@ Both versions follow the same core idea: react correctly to changing rules as fa
 
 🌐 Web Game Features
 
--Dynamic visual stimuli (shapes & colors)
+- Dynamic visual stimuli (shapes & colors)
 
 -Progressive difficulty levels
 
