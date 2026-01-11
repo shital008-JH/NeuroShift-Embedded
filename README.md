@@ -20,33 +20,33 @@ Both versions follow the same core idea: react correctly to changing rules as fa
 
 🌐 Web Game Features
 
-Dynamic visual stimuli (shapes & colors)
+-Dynamic visual stimuli (shapes & colors)
 
-Progressive difficulty levels
+-Progressive difficulty levels
 
-90-second timed gameplay
+-90-second timed gameplay
 
-Combo and life (heart) system
+-Combo and life (heart) system
 
-Reaction time measurement
+-Reaction time measurement
 
-Final Neuro Profile score generation
+-Final Neuro Profile score generation
 
 🔌 Hardware Simulation Features
 
 ESP32-based reaction game
 
-Dual OLED displays:
+-Dual OLED displays
 
-Command Display
+-Command Display
 
-HUD (Lives & Time)
+-HUD (Lives & Time)
 
-RGB LED visual feedback
+-RGB LED visual feedback
 
-Buzzer sound feedback
+-Buzzer sound feedback
 
-Physical push-button interaction
+-Physical push-button interaction
 
 Life-based and time-based game logic
 
@@ -61,21 +61,21 @@ A rule is displayed telling when to take action
 
 Correct actions:
 
-Increase score
++Increase score
 
-Increase combo
++Increase combo
 
-Wrong actions:
++Wrong actions:
 
-Reduce lives
++Reduce lives
 
-Reset combo
++Reset combo
 
 Game ends when:
 
-Time reaches zero (win)
++Time reaches zero (win)
 
-All lives are lost (game over)
++All lives are lost (game over)
 
 ---
 ## 🧠 Neuro Profile Metrics
@@ -109,27 +109,27 @@ All lives are lost (game over)
 
 OLED shows a command:
 
-PRESS BUTTON
+1.PRESS BUTTON
 
-DO NOT PRESS
+2-DO NOT PRESS
 
-PRESS FAST
+3.PRESS FAST
 
-WAIT
+4.WAIT
 
-RGB LED indicates command type
+5.RGB LED indicates command type
 
 Button press is evaluated:
 
-Correct → Success feedback
+-Correct → Success feedback
 
-Wrong → Life lost
+-Wrong → Life lost
 
 Game ends when:
 
-Time expires → YOU WIN
+-Time expires → YOU WIN
 
-Lives reach zero → GAME OVER
+-Lives reach zero → GAME OVER
 
 ---
 ## 📷 Circuit Diagram
