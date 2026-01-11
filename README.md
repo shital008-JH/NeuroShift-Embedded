@@ -135,7 +135,7 @@ Game ends when:
 ## 📷 Circuit Diagram
 
 Refer to diagram.json for the complete ESP32 wiring and component layout used in Wokwi.
-<img width="235" height="218" alt="image" src="https://github.com/user-attachments/assets/ad9b4325-c2aa-4d3f-b930-3595aabfc519" />
+<img width="250" height="233" alt="image" src="https://github.com/user-attachments/assets/ad9b4325-c2aa-4d3f-b930-3595aabfc519" />
 
 ---
 ## 🎯 Purpose of the Project
