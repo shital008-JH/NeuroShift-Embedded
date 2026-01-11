@@ -1,0 +1,55 @@
+ 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeuroShift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="screen active" id="menu">
+  <h1>🧠 NeuroShift</h1>
+  <p>Focus • Adapt • Survive</p>
+  <button onclick="startGame()">Start Test</button>
+</div>
+
+<div class="screen" id="game">
+
+  <div class="top-bar">
+    <div id="hearts">❤️❤️❤️❤️❤️</div>
+    <div id="time">90s</div>
+  </div>
+
+  <p id="rule">Rule appears here</p>
+
+  <div id="stimulus">●</div>
+
+  <button class="tap" onclick="registerTap()">ACTION</button>
+
+  <p>
+    Score: <span id="score">0</span> |
+    Combo: <span id="combo">0</span>
+  </p>
+</div>
+
+<div class="screen" id="profile">
+  <h2>Neuro Profile</h2>
+  <div class="stats">
+    <p>⚡ Reflex: <span id="reflex"></span>%</p>
+    <p>🎯 Focus: <span id="focus"></span>%</p>
+    <p>🔁 Adaptability: <span id="adapt"></span>%</p>
+    <p>🧘 Stability: <span id="stability"></span>%</p>
+  </div>
+  <button onclick="restart()">Restart</button>
+</div>
+
+<div class="screen" id="gameover">
+  <h2>💀 Game Over</h2>
+  <p>You lost all focus.</p>
+  <button onclick="restart()">Try Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
