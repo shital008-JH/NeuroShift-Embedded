@@ -22,31 +22,31 @@ Both versions follow the same core idea: react correctly to changing rules as fa
 
 - Dynamic visual stimuli (shapes & colors)
 
--Progressive difficulty levels
+- Progressive difficulty levels
 
--90-second timed gameplay
+- 90-second timed gameplay
 
--Combo and life (heart) system
+- Combo and life (heart) system
 
--Reaction time measurement
+- Reaction time measurement
 
--Final Neuro Profile score generation
+- Final Neuro Profile score generation
 
 🔌 Hardware Simulation Features
 
 ESP32-based reaction game
 
--Dual OLED displays
+- Dual OLED displays
 
--Command Display
+- Command Display
 
--HUD (Lives & Time)
+- HUD (Lives & Time)
 
--RGB LED visual feedback
+- RGB LED visual feedback
 
--Buzzer sound feedback
+- Buzzer sound feedback
 
--Physical push-button interaction
+- Physical push-button interaction
 
 Life-based and time-based game logic
 
@@ -61,19 +61,19 @@ A rule is displayed telling when to take action
 
 Correct actions:
 
-+Increase score
++ Increase score
 
-+Increase combo
++ Increase combo
 
-+Wrong actions:
++ Wrong actions:
 
-+Reduce lives
++ Reduce lives
 
-+Reset combo
++ Reset combo
 
 Game ends when:
 
-+Time reaches zero (win)
++ Time reaches zero (win)
 
 +All lives are lost (game over)
 
