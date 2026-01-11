@@ -135,7 +135,7 @@ Lives reach zero → GAME OVER
 ## 📷 Circuit Diagram
 
 Refer to diagram.json for the complete ESP32 wiring and component layout used in Wokwi.
-<img width="940" height="873" alt="image" src="https://github.com/user-attachments/assets/ad9b4325-c2aa-4d3f-b930-3595aabfc519" />
+<img width="470" height="436" alt="image" src="https://github.com/user-attachments/assets/ad9b4325-c2aa-4d3f-b930-3595aabfc519" />
 
 ---
 ## 🎯 Purpose of the Project
