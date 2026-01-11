@@ -75,7 +75,7 @@ Game ends when:
 
 + Time reaches zero (win)
 
-+All lives are lost (game over)
++ All lives are lost (game over)
 
 ---
 ## 🧠 Neuro Profile Metrics
