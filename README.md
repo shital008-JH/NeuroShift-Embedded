@@ -1,5 +1,7 @@
 ### 🧠 NeuroShift
+
 Focus • Adapt • Survive
+
 ---
 ## 📌 Project Overview
 
@@ -12,4 +14,5 @@ The project consists of:
 🔌 An ESP32 hardware simulation using Wokwi
 
 Both versions follow the same core idea: react correctly to changing rules as fast as possible.
+
 ---
