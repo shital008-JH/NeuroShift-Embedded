@@ -121,15 +121,15 @@ OLED shows a command:
 
 Button press is evaluated:
 
--Correct → Success feedback
+- Correct → Success feedback
 
--Wrong → Life lost
+- Wrong → Life lost
 
 Game ends when:
 
--Time expires → YOU WIN
+- Time expires → YOU WIN
 
--Lives reach zero → GAME OVER
+- Lives reach zero → GAME OVER
 
 ---
 ## 📷 Circuit Diagram
